@@ -1,0 +1,1 @@
+const mongoose = require('mongoose'); console.log('Starting test with timeout...'); mongoose.connect('mongodb+srv://prajwalghule2020:PrajwaL321@cluster0.fh11i.mongodb.net/event-manager', { serverSelectionTimeoutMS: 5000 }).then(() => console.log('Connected!')).catch(e => console.error('Error:', e.message));
